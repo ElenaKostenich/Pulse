@@ -1,0 +1,40 @@
+.reviews {
+    padding-bottom: 70px;
+    &-card {
+        display: flex;
+        margin-bottom: 100px;
+        line-height: 18px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &__img {
+            display: block;
+            margin-right: 61px;
+            width: 169px;
+            height: 169px;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        &__subtitle {
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &__progress {
+            margin-bottom: 19px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
+            color: #646464;
+        }
+        &__text {
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            
+            color: #0d0d0d;
+        }
+    }
+}

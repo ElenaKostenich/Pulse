@@ -4,4 +4,12 @@
     text-align: center;
     color: #0d0d0d;
     text-transform: uppercase;
+    &_consultation {
+        font-size: 36px;
+        text-align: left;
+        color: #fff;
+    }
+    &_reviews {
+        margin-bottom: 70px;
+    }
 }
